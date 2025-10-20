@@ -352,12 +352,19 @@
 	name = "hermetic crate"
 	},
 /obj/item/gun/energy/lasercannon{
-	pixel_y = 5
+	pixel_y = 5;
+	name = "Charge Lance"
 	},
-/obj/item/gun/energy/lasercannon,
+/obj/item/gun/energy/lasercannon{
+	name = "charge lance"
+	},
 /obj/effect/turf_decal/industrial/hatch,
-/obj/item/gun/energy/laser/e10,
-/obj/item/gun/energy/laser/e10,
+/obj/item/gun/energy/laser/e10{
+	name = "pulse pistol"
+	},
+/obj/item/gun/energy/laser/e10{
+	name = "pulse pistol"
+	},
 /turf/open/floor/plasteel/mono,
 /area/ruin/beach/complex)
 "gM" = (
@@ -460,14 +467,30 @@
 /obj/structure/closet/crate{
 	name = "hermetic crate"
 	},
-/obj/item/clothing/head/helmet/space/syndicate/white_red,
-/obj/item/clothing/head/helmet/space/syndicate/white_red,
-/obj/item/clothing/head/helmet/space/syndicate/white_red,
-/obj/item/clothing/head/helmet/space/syndicate/white_red,
-/obj/item/clothing/suit/space/syndicate/white_red,
-/obj/item/clothing/suit/space/syndicate/white_red,
-/obj/item/clothing/suit/space/syndicate/white_red,
-/obj/item/clothing/suit/space/syndicate/white_red,
+/obj/item/clothing/head/helmet/space/syndicate/white_red{
+	name = "vacsuit helmet"
+	},
+/obj/item/clothing/head/helmet/space/syndicate/white_red{
+	name = "vacsuit helmet"
+	},
+/obj/item/clothing/head/helmet/space/syndicate/white_red{
+	name = "vacsuit helmet"
+	},
+/obj/item/clothing/head/helmet/space/syndicate/white_red{
+	name = "vacsuit helmet"
+	},
+/obj/item/clothing/suit/space/syndicate/white_red{
+	name = "vacsuit"
+	},
+/obj/item/clothing/suit/space/syndicate/white_red{
+	name = "vacsuit"
+	},
+/obj/item/clothing/suit/space/syndicate/white_red{
+	name = "vacsuit"
+	},
+/obj/item/clothing/suit/space/syndicate/white_red{
+	name = "vacsuit"
+	},
 /obj/structure/spacevine/weak,
 /turf/open/floor/concrete/slab_3,
 /area/ruin/beach/complex)
@@ -617,7 +640,8 @@
 /obj/structure/catwalk/over/plated_catwalk/dark,
 /obj/machinery/power/shieldwallgen/atmos/roundstart{
 	dir = 4;
-	id = "dropshuttle"
+	id = "dropshuttle";
+	name = "vac barrier"
 	},
 /obj/machinery/door/poddoor/shutters{
 	id = "doorshuttle"
@@ -770,7 +794,9 @@
 /turf/open/floor/concrete/slab_1,
 /area/ruin/beach/complex/wall)
 "nJ" = (
-/obj/machinery/sleeper/syndie,
+/obj/machinery/sleeper/syndie{
+	name = "biosculpter"
+	},
 /obj/effect/turf_decal/box/white,
 /obj/structure/spacevine/weak,
 /turf/open/floor/plasteel/mono,
@@ -817,7 +843,9 @@
 /area/ruin/beach/complex)
 "of" = (
 /obj/effect/decal/cleanable/dirt/dust,
-/obj/machinery/recharge_station,
+/obj/machinery/recharge_station{
+	name = "mech charger"
+	},
 /turf/open/floor/concrete/slab_4,
 /area/ruin/beach/complex)
 "ok" = (
@@ -1284,7 +1312,8 @@
 /area/ruin/beach/complex/wall)
 "vy" = (
 /obj/machinery/computer/helm{
-	dir = 8
+	dir = 8;
+	name = "pilot console"
 	},
 /turf/open/floor/plasteel/mono,
 /area/ruin/beach/complex/shuttle)
@@ -1981,7 +2010,9 @@
 /turf/open/floor/concrete/slab_1,
 /area/ruin/beach/complex/wall)
 "FQ" = (
-/obj/machinery/vending/sustenance,
+/obj/machinery/vending/sustenance{
+	name = "\improper Nutrient Dispenser"
+	},
 /obj/effect/decal/cleanable/dirt/dust,
 /turf/open/floor/plasteel/mono,
 /area/ruin/beach/complex)
@@ -2221,7 +2252,8 @@
 	dir = 8
 	},
 /obj/machinery/door/poddoor/shutters{
-	id = "doorshuttle"
+	id = "doorshuttle";
+	name = "vac barrier"
 	},
 /obj/structure/cable{
 	icon_state = "1-8"
@@ -2263,7 +2295,8 @@
 /obj/structure/catwalk/over/plated_catwalk/dark,
 /obj/machinery/power/shieldwallgen/atmos/roundstart{
 	dir = 4;
-	id = "dropshuttle"
+	id = "dropshuttle";
+	name = "vac barrier"
 	},
 /obj/machinery/door/poddoor/shutters{
 	id = "doorshuttle"
@@ -2432,7 +2465,8 @@
 /obj/structure/catwalk/over/plated_catwalk/dark,
 /obj/machinery/power/shieldwallgen/atmos/roundstart{
 	id = "dropshuttle";
-	dir = 8
+	dir = 8;
+	name = "vac barrier"
 	},
 /obj/structure/cable{
 	icon_state = "2-8"
@@ -2738,7 +2772,9 @@
 /turf/open/floor/concrete/slab_1,
 /area/ruin/beach/complex/wall)
 "Sy" = (
-/turf/closed/wall,
+/turf/closed/wall{
+	name = "gravship hull"
+	},
 /area/ruin/beach/complex/shuttle)
 "Sz" = (
 /obj/structure/cable{
